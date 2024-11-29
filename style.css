@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --button-color: #596D48;
+    --input-border-color: #e5e7eb;
+    --input-border-color-invalid: rgb(187, 93, 93);
+    --input-border-color-focus: rgb(177, 177, 241);
+    --background-color: #e5e7eb;
+    --text-primary: #191919;
+    --text-inverse: #f2f2f2;
+}
