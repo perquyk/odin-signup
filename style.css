@@ -21,19 +21,19 @@
     max-width: 100vw;
     max-height: 100vh;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .left-side{ 
     background-image: url(/assets/leaves.avif);
     background-size: cover;
     height: 100vh;
-    width: 66vw;
+    width: 50vw;
 
 }
 .logo-container{
     position:relative;
-    top: 50vh;
+    top: 35vh;
     height:150px;
     display: flex;
     align-items: center;
@@ -41,7 +41,6 @@
     background-color: hsla(0, 0%, 0%, 50%);
     width: 100%;
     padding: 15px 0px;
-
 }
 .logo-container > img {
     height: 100%;
@@ -50,8 +49,39 @@
 .logo-container > h1 {
     font-size: 72px;
     font-family: sans-serif;
-    color: white;
+    color: var(--text-inverse);
     
 }
 
+.right-side{
+    background-color: var(--background-color);
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.right-side > p {
+    font-size: 36px;
+    font-family: sans-serif;
+    color: var(--text-primary);
+    margin-bottom: 25px;
+} 
+button {
+    background-color: var(--button-color);
+    color: var(--text-inverse);
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: none;
+}
+form {
 
+}
+form > fieldset {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+fieldset {
+    background-color: var(--text-inverse)
+}
