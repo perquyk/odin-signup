@@ -4,6 +4,7 @@
     font-size: 12px;
     text-decoration: none;
     list-style: none;
+    
 }
 
 :root{
@@ -15,3 +16,34 @@
     --text-primary: #191919;
     --text-inverse: #f2f2f2;
 }
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-side{
+    flex:2;
+    flex-shrink:1;
+}
+.left-side{
+    flex:1;
+    flex-shrink:2;
+}
+.left-side{
+    background-image: url("assets/leaves.avif");
+    background-size: cover;
+}
+.left-side > .logo-container{
+    background-color: hsla(0, 0%, 0%, 25%);
+    font-size: 72px;
+}
+.logo-container > h1 {
+    font-size: 72px;
+    
+}
+
+
