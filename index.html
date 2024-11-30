@@ -20,26 +20,44 @@
             <p>You know you want to.</p>
             <form action="#" method="post">
                 <fieldset>
-                    <legend>Let's do this!</legend>
-                    <label for="fname">First Name</label>
-                    <input name="fname" id="fname" type="text">
-                    <label for="lname">Last Name</label>
-                    <input name="lname" id="lname" type="text">
-                    <label for="mail">Email</label>
-                    <input name="mail" id="mail" type="email">
-                    <label for="phone">Phone Number</label>
-                    <input name="phone" id="phone" type="phone">
-                    <label for="pwd1">Password</label>
-                    <input name="pwd1" id="pwd1" type="password">
-                    <label for="pwd2">Confirm Password</label>
-                    <input name="pwd2" id="pwd2" type="password">
+                    <p>Let's do this!</p>
+                    <div class="groupcontainer">
+                        <div class="inputgroup">
+                            <label for="fname">First Name</label>
+                            <input name="fname" id="fname" type="text">
+                        </div>
+                        <div class="inputgroup">
+                            <label for="lname">Last Name</label>
+                            <input name="lname" id="lname" type="text">
+                        </div>
+                    </div>
+                    <div class="groupcontainer">
+                        <div class="inputgroup">
+                            <label for="mail">Email</label>
+                            <input name="mail" id="mail" type="email">
+                        </div>
+                        <div class="inputgroup">
+                            <label for="phone">Phone Number</label>
+                            <input name="phone" id="phone" type="number">
+                        </div>
+                    </div>
+                    <div class="groupcontainer">
+                        <div class="inputgroup">
+                            <label for="pwd1">Password</label>
+                            <input name="pwd1" id="pwd1" type="password">
+                        </div>
+                        <div class="inputgroup">
+                            <label for="pwd2">Confirm Password</label>
+                            <input name="pwd2" id="pwd2" type="password">
+                        </div>
+                    </div>
                 </fieldset>
             <button type="submit">
                 Create Account
             </button>
             </form>
         
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <p id="subbtn">Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
 </body>
